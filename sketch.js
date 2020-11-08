@@ -72,7 +72,7 @@ function draw() {
  function keyPressed() {
    if(keyCode===UP_ARROW){
      Matter.Body.applyForce(bob1.body,bob1.body.position,{x:-350,y:350})
-     bob1.fly();
+     
    }
    
    
