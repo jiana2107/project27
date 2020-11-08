@@ -25,9 +25,4 @@ class Bob{
      ellipse(0,0,this.radius,this.radius);
      pop();
     }
-
-    fly(){
-        Matter.Body.applyForce(this.body,this.body.position,{x:200,y:200})
-    }
-   
    }
